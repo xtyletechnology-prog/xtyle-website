@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xtyletechnology-prog/xtyle-website/static/css/main.14632fc5.css",
+    "main.js": "/xtyletechnology-prog/xtyle-website/static/js/main.690b9c3d.js",
+    "static/js/453.8590700a.chunk.js": "/xtyletechnology-prog/xtyle-website/static/js/453.8590700a.chunk.js",
+    "index.html": "/xtyletechnology-prog/xtyle-website/index.html",
+    "main.14632fc5.css.map": "/xtyletechnology-prog/xtyle-website/static/css/main.14632fc5.css.map",
+    "main.690b9c3d.js.map": "/xtyletechnology-prog/xtyle-website/static/js/main.690b9c3d.js.map",
+    "453.8590700a.chunk.js.map": "/xtyletechnology-prog/xtyle-website/static/js/453.8590700a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14632fc5.css",
+    "static/js/main.690b9c3d.js"
+  ]
+}
