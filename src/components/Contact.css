@@ -1,0 +1,123 @@
+/* components/Contact.css */
+.contact {
+  background: linear-gradient(135deg, #0f0f2a, #08081a);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+}
+
+.contact-info {
+  display: grid;
+  gap: 24px;
+}
+
+.info-card {
+  background: rgba(30, 30, 58, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateX(10px);
+  border-color: rgba(108, 99, 255, 0.5);
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.info-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.info-card p {
+  color: #b8b8d0;
+  line-height: 1.6;
+}
+
+.contact-form {
+  background: rgba(30, 30, 58, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(10, 10, 42, 0.8);
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 10px rgba(108, 99, 255, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #6c63ff, #ff6584);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+}
+
+.success-message {
+  margin-top: 16px;
+  padding: 12px;
+  background: rgba(39, 201, 63, 0.2);
+  border: 1px solid #27c93f;
+  border-radius: 8px;
+  text-align: center;
+  color: #27c93f;
+}
+
+@media (max-width: 968px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form {
+    padding: 24px;
+  }
+}
